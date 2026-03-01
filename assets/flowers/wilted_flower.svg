@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" width="64" height="80">
+  <!-- Drooping petals - wilted rose -->
+  <g fill="none" stroke="#d269a8" stroke-width="1.5" stroke-opacity="0.6">
+    <path d="M32 20 Q28 35 25 45 Q30 50 32 55" stroke-linecap="round"/>
+    <path d="M32 20 Q38 32 42 42 Q38 48 32 52" stroke-linecap="round"/>
+    <path d="M32 18 Q40 28 45 38 Q42 45 35 50" stroke-linecap="round"/>
+    <path d="M32 18 Q24 30 20 40 Q24 46 30 50" stroke-linecap="round"/>
+    <path d="M32 22 Q36 40 34 55" stroke-linecap="round"/>
+    <path d="M32 22 Q28 38 30 54" stroke-linecap="round"/>
+  </g>
+  <!-- Center -->
+  <circle cx="32" cy="22" r="3" fill="#d269a8" fill-opacity="0.5"/>
+  <!-- Stem -->
+  <path d="M32 55 Q30 65 28 78" stroke="#4a3a5a" stroke-width="2" stroke-opacity="0.6" fill="none" stroke-linecap="round"/>
+  <!-- Leaf drooping -->
+  <path d="M28 65 Q22 70 20 72" stroke="#3d4a3a" stroke-width="1.5" stroke-opacity="0.4" fill="none" stroke-linecap="round"/>
+</svg>
