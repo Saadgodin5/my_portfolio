@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // ═══════════════════════════════════════════════════════════════════════════
-// SadFlow — Comfortable, Soft Design
+// SaadTech — Comfortable, Soft Design
 // ═══════════════════════════════════════════════════════════════════════════
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -147,11 +147,11 @@ void main() {
       systemNavigationBarIconBrightness: Brightness.light,
     ),
   );
-  runApp(const SadFlowApp());
+  runApp(const SaadTechApp());
 }
 
-class SadFlowApp extends StatelessWidget {
-  const SadFlowApp({super.key});
+class SaadTechApp extends StatelessWidget {
+  const SaadTechApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -168,7 +168,7 @@ class SadFlowApp extends StatelessWidget {
         ),
         textTheme: GoogleFonts.poppinsTextTheme(ThemeData.dark().textTheme),
       ),
-      home: const SadFlowPortfolio(),
+      home: const SaadTechPortfolio(),
     );
   }
 }
@@ -177,14 +177,14 @@ class SadFlowApp extends StatelessWidget {
 // Portfolio Page
 // ═══════════════════════════════════════════════════════════════════════════
 
-class SadFlowPortfolio extends StatefulWidget {
-  const SadFlowPortfolio({super.key});
+class SaadTechPortfolio extends StatefulWidget {
+  const SaadTechPortfolio({super.key});
 
   @override
-  State<SadFlowPortfolio> createState() => _SadFlowPortfolioState();
+  State<SaadTechPortfolio> createState() => _SaadTechPortfolioState();
 }
 
-class _SadFlowPortfolioState extends State<SadFlowPortfolio> {
+class _SaadTechPortfolioState extends State<SaadTechPortfolio> {
   final ScrollController _scrollController = ScrollController();
   final List<GlobalKey> _sectionKeys = [
     GlobalKey(),
